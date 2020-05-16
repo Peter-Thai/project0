@@ -100,7 +100,7 @@ h3{
   margin-top: 2.5vw;
 }
 
-#icon {
+.icon {
   float: left;
   margin-bottom: 5vw;
   margin-left: 5vw;
@@ -108,7 +108,7 @@ h3{
   width: 30%;
 }
 
-#icontext{
+.icontext{
   float: right;
   margin-right: 5vw;
   text-align: left;
@@ -116,7 +116,7 @@ h3{
   margin-top: 2vw;
 }
 
-#iconcontainer{
+.iconcontainer{
   width: 100% ;
   max-width: 100% ;
   margin-left: auto ;
@@ -139,7 +139,7 @@ table, th, td {
 }
 
 @media only screen and (max-width: 800px) {
-  img{
+  .icon{
     width: 100%;
     }
   }
