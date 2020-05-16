@@ -143,6 +143,9 @@ table, th, td {
 
 @media only screen and (max-width: 600px) {
   #icon{
-    width: 100%;
+    width: 100%;}
+    body{
+      background-color: lightblue;
+    }
   }
 }
