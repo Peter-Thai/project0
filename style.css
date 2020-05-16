@@ -139,7 +139,7 @@ table, th, td {
 
 @media only screen and (max-width: 800px) {
   h3{
-
+    margin-left: 0vw;
   }
   img{
     width: 100%;
