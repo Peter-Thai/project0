@@ -136,3 +136,9 @@ table, th, td {
   margin-right: auto;
   border-collapse: collapse;
 }
+
+@media only screen and (max-width: 800px) {
+  .icon{
+    width: 100%;
+    }
+  }
