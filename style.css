@@ -139,7 +139,7 @@ table, th, td {
 }
 
 @media only screen and (max-width: 800px) {
-  #icon{
+  img{
     width: 100%;
     }
   }
