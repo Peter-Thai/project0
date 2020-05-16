@@ -141,7 +141,5 @@ table, th, td {
 }
 
 @media only screen and (max-width: 768px) {
-  #icon{
-    width: 100%;
-  }
+<img src="icon.jpg" alt="icon" class="center" style="width:100%" >;
 }
