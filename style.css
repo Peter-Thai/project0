@@ -139,6 +139,6 @@ table, th, td {
 
 @media only screen and (max-width: 800px) {
   img{
-    width: 100%;
+    style:"width: 100%";
     }
   }
