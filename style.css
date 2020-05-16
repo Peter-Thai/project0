@@ -14,27 +14,28 @@ header{
 
 .nav-bar{
   background: #2d3f45;
-  height: 80px;
+  height: 7vw;
 }
 
 .menu{
   float: left;
   list-style: none;
-  margin: 20px;
+  margin: 1vw;
+  font-size: 2vw;
 }
 
 .menu li {
   display: inline-block;
-  margin: 10px 5px;
+  margin: 0.5vw 0.25vw;
 }
 
 .menu li  a{
   text-decoration: none;
   color: #ffffff;
-  padding: 5px 10px;
+  padding: 0.25vw 0.5vw;
   font-family:sans-serif;
-  letter-spacing: 2px;
-  border: 1px solid #fff;
+  letter-spacing: 0.1vw;
+  border: 0.05vw solid #fff;
 }
 
 .menu li a:hover{
@@ -46,75 +47,73 @@ header{
 h1{
   color: black;
   font-weight: lighter;
-  font-size: 50px;
+  font-size: 4vw;
   text-align: center;
-  margin-top: 120px;
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-top: 6vw;
+  margin-left: 6vw;
+  margin-right: 6vw;
   line-height: 1.6;
 }
 
 .center {
   display: block;
-  margin-left: 50px;
+  margin-left: 4vw;
   margin-right: auto;
   width: 25%;
 }
 
 .info-bar{
   background: #2d3f45;
-  height: 100px;
+  height: 5vw;
 }
 
 .info{
   float: left;
   list-style: none;
-  margin: 20px;
+  margin: 1vw;
 }
 
 .info li {
   display: inline-block;
-  margin: 10px 5px;
+  margin: 0.5vw 0.25vw;
 }
 
 .info li  a{
   text-decoration: none;
   color: #ffffff;
-  padding: 5px 10px;
+  padding: 0.25vw 0.5vw;
   font-family:sans-serif;
-  letter-spacing: 2px;
-}
-
-.info li a:hover{
-  background: #2d3f45;
-  transition: .4s;
-  color: #000;
+  letter-spacing: 0.05vw;
 }
 
 .flex-wrapper {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  justify-content: space-between
+  justify-content: space-between;
+  float: center;
 }
 
 h3{
   color: black;
   font-weight: lighter;
-  font-size: 30px;
+  font-size: 2vw;
   line-height: 3.5;
   text-align: left;
-  margin-left: 500px;
-  margin-top: 50px;
+  margin-left: 25vw;
+  margin-top: 2.5vw;
 }
 
 #icon {
   float: left;
-  margin-bottom: 100px;
+  margin-bottom: 5vw;
+  margin-left: 5vw;
+  height:auto;
 }
 
 #icontext{
-  float: left;
+  float: right;
+  margin-right: 5vw;
   text-align: left;
 }
 
@@ -128,12 +127,13 @@ h3{
 h2{
   color: white;
   font-family: sans-serif;
-  font-weight: lighter;
+  font-weight: auto;
+  font-size:2vw;
 }
 
 table, th, td {
-  border: 3px solid black;
-  margin-bottom: 100px;
+  border: 0.015vw solid black;
+  margin-bottom: 5vw;
   margin-left: auto;
   margin-right: auto;
   border-collapse: collapse;
